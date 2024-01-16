@@ -6,8 +6,6 @@ O Catus Shop é um projeto de e-commerce que destaca as habilidades em desenvolv
 
 Funcionalidades Destacadas
 
-Catálogo Abrangente: Apresenta variedade de produtos, organizados de forma intuitiva para facilitar a navegação dos clientes.
-
 Design Responsivo: O site é otimizado para visualização em diversos dispositivos, proporcionando uma experiência consistente em computadores, tablets e smartphones.
 
 
