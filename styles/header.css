@@ -1,0 +1,145 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: var(--grey);
+  padding: 20px 0px 20px 0px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .flex-grid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header .flex-grid a {
+  width: 30%;
+}
+
+.header .logo {
+  width: 176.495px;
+  height: 54px;
+}
+
+.menu-box {
+  width: 100%;
+}
+
+.header .menu-box .b-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.header .menu-box nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.header .menu-box nav ul {
+  display: flex;
+}
+
+.header .menu-box nav ul li {
+  position: relative;
+  padding: 1rem;
+}
+
+.header .menu-box nav ul li a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--black);
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header .button-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+}
+
+.header .button-grid div {
+  display: flex;
+}
+
+.header .button-grid div input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--black);
+}
+
+.header .button-grid div button {
+  border: none;
+  background-color: transparent;
+}
+
+.header .b-menu-toggle-box {
+  display: none;
+}
+
+.b-menu .button-grid div {
+  gap: 2rem;
+}
+
+.b-menu .button-grid div input {
+  width: 180px;
+  padding-right: 1rem;
+}
+
+.b-menu .button-grid div img {
+  width: 36.555px;
+  height: 34.105px;
+}
+
+@media (max-width: 1280px) {
+  .header .menu-box .b-menu-toggle-box .b-mobile.ativo {
+    display: inline;
+  }
+
+  .header .menu-box .b-menu {
+    display: none;
+  }
+
+  .header .b-menu-toggle-box {
+    display: block;
+  }
+
+  .header .menu-box .b-menu.ativo {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    padding: 2rem;
+    background: var(--grey);
+  }
+
+  .header .menu-box nav ul {
+    flex-direction: column;
+  }
+
+  .header .button-grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .header.ativo .menu-box .b-menu {
+    height: 100vh;
+  }
+}

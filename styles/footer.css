@@ -1,0 +1,33 @@
+.footer {
+  background: var(--dark-grey);
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.footer-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info ul {
+  gap: 100px;
+  margin: 2rem 0rem 2rem 0rem;
+  color: var(--white);
+}
+
+.pay-card {
+  border-radius: 2px;
+  background: var(--grey);
+  width: 44px;
+  height: 32px;
+  flex-shrink: 0;
+  padding: 8px;
+}
+
+@media (max-width: 1180px) {
+  .footer-info {
+    flex-direction: column;
+  }
+}

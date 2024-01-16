@@ -1,0 +1,21 @@
+.products {
+  width: 100%;
+}
+
+.products h2 {
+  text-align: center;
+  border-bottom: 1px solid var(--border-grey);
+  padding-bottom: 2rem;
+}
+
+.ul-section1 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+.ul-section1 li {
+  width: 100%;
+}
